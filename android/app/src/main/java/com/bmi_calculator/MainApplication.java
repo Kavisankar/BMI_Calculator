@@ -9,6 +9,7 @@ import com.facebook.react.ReactPackage;
 import com.facebook.soloader.SoLoader;
 import java.lang.reflect.InvocationTargetException;
 import java.util.List;
+// react-native-splash-screen >= 0.3.1
 
 public class MainApplication extends Application implements ReactApplication {
 

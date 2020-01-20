@@ -7,7 +7,8 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "hello": "react-native unlink react-native-splash-screen"
   },
   "dependencies": {
     "@react-native-community/masked-view": "^0.1.1",
@@ -17,7 +18,7 @@
     "react-native-reanimated": "^1.7.0",
     "react-native-safe-area-context": "^0.6.2",
     "react-native-screens": "^1.0.0-alpha.23",
-    "react-native-speedometer": "^1.0.3",
+    "react-native-splash-screen": "^3.2.0",
     "react-native-vector-icons": "^6.6.0",
     "react-navigation": "^4.0.10",
     "react-navigation-drawer": "^2.3.3",
