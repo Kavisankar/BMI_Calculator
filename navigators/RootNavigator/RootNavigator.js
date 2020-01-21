@@ -21,7 +21,6 @@ const RootNavigator = createDrawerNavigator(
   {
     initialRouteName: 'Home',
     contentComponent: props => <DrawerContent {...props} />,
-    drawerWidth: '80%',
   },
 );
 

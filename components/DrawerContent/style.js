@@ -6,6 +6,7 @@ export default StyleSheet.create({
   },
   titileContainer: {
     backgroundColor: '#1a73e8',
+    padding: 10,
   },
   title: {
     fontSize: 30,
@@ -16,8 +17,8 @@ export default StyleSheet.create({
   },
   icon: {
     alignSelf: 'center',
-    height: 150,
-    width: 150,
+    height: 120,
+    width: 120,
     marginTop: 20,
   },
   lableStyle: {

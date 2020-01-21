@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {View, Text, Keyboard} from 'react-native';
+import {View, Text, Keyboard, ScrollView} from 'react-native';
 
 import styles from './style';
 import MyButton from '../../components/MyButton';
@@ -92,7 +92,7 @@ export default class HomeScreen extends Component {
     return (
       <View style={styles.container}>
         <Header {...this.props} />
-        <View style={styles.card}>
+        <ScrollView style={styles.card}>
           <Input
             label="Height (in Centimeter)"
             placeholder="Enter the height"
@@ -113,7 +113,8 @@ export default class HomeScreen extends Component {
               {'"'}.
             </Text>
           )}
-        </View>
+          <View style={styles.emptyFooter} />
+        </ScrollView>
       </View>
     );
   }

@@ -9,12 +9,15 @@ export default StyleSheet.create({
     backgroundColor: '#fff',
     elevation: 6,
     margin: 15,
-    paddingTop: 15,
+    paddingVertical: 20,
   },
   result: {
     paddingTop: 20,
     fontSize: 20,
     textAlign: 'center',
     color: '#1a73e8',
+  },
+  emptyFooter: {
+    padding: 15,
   },
 });

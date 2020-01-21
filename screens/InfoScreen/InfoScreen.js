@@ -34,7 +34,7 @@ export default class InfoScreen extends Component {
             {'\n\n\t\t\t'}
             BMIs under 20.0 and over 25.0 have been associated with higher
             all-causes mortality, with the risk increasing with distance from
-            the 20.0–25.0 range.{' '}
+            the 20.0–25.0 range.{' \n\n\n\n'}
           </Text>
         </ScrollView>
       </View>
