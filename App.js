@@ -19,7 +19,7 @@ export default class App extends Component {
   render() {
     return (
       <>
-        <StatusBar barStyle="dark-content" />
+        <StatusBar backgroundColor="#0747a6" barStyle="light-content" />
         <RootNavigator />
       </>
     );

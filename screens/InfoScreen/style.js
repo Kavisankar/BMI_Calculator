@@ -5,7 +5,8 @@ export default StyleSheet.create({
     flex: 1,
   },
   body: {
-    margin: 15,
+    padding: 15,
+    backgroundColor: 'white',
   },
   title: {
     fontSize: 28,

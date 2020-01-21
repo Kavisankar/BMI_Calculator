@@ -8,7 +8,7 @@ export default class InfoScreen extends Component {
     return (
       <View style={style.container}>
         <Header {...this.props} />
-        <ScrollView style={style.body}>
+        <ScrollView style={style.body} showsVerticalScrollIndicator={false}>
           <Text style={style.title}>Body mass index</Text>
           <Text style={style.subTitle}>What is BMI?</Text>
           <Text style={style.content}>

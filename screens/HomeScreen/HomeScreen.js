@@ -76,11 +76,11 @@ export default class HomeScreen extends Component {
       } else if (bmi < 30) {
         discription = 'Overweight';
       } else if (bmi < 40) {
-        discription = 'Severely obses';
+        discription = 'Obses';
       } else if (bmi < 50) {
-        discription = 'Morbidly obses';
+        discription = 'Severely obses';
       } else {
-        discription = '';
+        discription = 'Morbidly obses';
       }
       this.setState({bmi, discription});
     } else {
