@@ -6,17 +6,17 @@ export default StyleSheet.create({
   },
   input: {
     fontSize: 20,
-    color: '#4b61e5',
+    color: '#1a73e8',
     fontWeight: '100',
     borderBottomWidth: 1,
-    borderColor: '#4b61e5',
+    borderColor: '#1a73e8',
     padding: 10,
     paddingTop: 5,
   },
   label: {
     fontSize: 18,
     fontWeight: '700',
-    color: '#4b61e5',
+    color: '#1a73e8',
   },
   errorMessage: {
     fontSize: 15,
